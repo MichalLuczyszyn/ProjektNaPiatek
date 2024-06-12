@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "WorkerService\WorkerService.csproj", "{81F906D3-A993-4929-880E-8FBACCB1D065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{A1E56633-A8D7-4B3C-B202-756543D67C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F906D3-A993-4929-880E-8FBACCB1D065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F906D3-A993-4929-880E-8FBACCB1D065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F906D3-A993-4929-880E-8FBACCB1D065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F906D3-A993-4929-880E-8FBACCB1D065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E56633-A8D7-4B3C-B202-756543D67C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E56633-A8D7-4B3C-B202-756543D67C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E56633-A8D7-4B3C-B202-756543D67C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E56633-A8D7-4B3C-B202-756543D67C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

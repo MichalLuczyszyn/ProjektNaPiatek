@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: posttest-xd
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: fred
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:latest
+    container_name: some-redis-xd
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+volumes:
+  postgres_data:
+  redis-data:
